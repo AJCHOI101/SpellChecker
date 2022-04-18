@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SpellChecker
+comment0.text=\n\ Stores\ as\ instance\ data\ \n\ a\ two-dimensional\ array\ of\ \n\ String\ objects,\ which\ will\ \n\ store\ the\ misspelling\ pairs.\n\n\ @author\ (Andrew\ Choi)\n\ @version\ (2020.05.01)\n
+comment1.params=fileName
+comment1.target=SpellChecker(java.lang.String)
+comment1.text=\n\ Accepts\ the\ name\ of\ the\ \n\ input\ file\ as\ a\ parameter.\ \n\ It\ creates\ a\ Scanner\ object\ \n\ to\ read\ the\ input\ file,\ and\ \n\ sets\ the\ delimiter\ to\ "[,\\n]"\ \n\ (as\ you\ did\ in\ Project\ 3)\ \n\ with\ the\ useDelimiter\ method.\ \n\ It\ then\ reads\ the\ first\ line\ \n\ of\ the\ input\ file\ using\ the\ \n\ nextInt\ method,\ and\ uses\ that\ \n\ value\ to\ create\ the\ 2D\ array.\n\ \n\ @param\ fileName\ name\ of\ file\n
+comment2.params=word
+comment2.target=int\ findWord(java.lang.String)
+comment2.text=\n\ Accepts\ a\ single\ word\ (String)\ \n\ as\ a\ parameter\ and\ performs\ a\ \n\ linear\ search\ on\ the\ 2D\ array,\ \n\ (starting\ an\ index\ zero),\ to\ \n\ see\ if\ the\ word\ is\ misspelled.\ \n\ If\ it\ finds\ the\ word,\ it\ returns\ \n\ the\ row\ index\ where\ it\ was\ found.\ \n\ If\ it\ is\ not\ found\ in\ the\ array,\ \n\ you\ can\ assume\ the\ word\ is\ spelled\ \n\ correctly\ and\ the\ method\ should\ \n\ return\ a\ -1.\n\ \n\ @param\ word\ mispelled\ word\n\ @return\ index\n
+comment3.params=sentence
+comment3.target=int\ checkSentence(java.lang.String)
+comment3.text=\n\ Accepts\ a\ sentence\ as\ a\ parameter\ \n\ (String)\ and\ returns\ the\ number\ \n\ of\ misspellings\ found\ in\ the\ sentence.\n\ \n\ @param\ sentence\ user\ input\ sentence\n\ @return\ mispellings\n
+comment4.params=word
+comment4.target=boolean\ checkWord(java.lang.String)
+comment4.text=\n\ Accepts\ a\ single\ word\ as\ a\ parameter\ \n\ and\ returns\ true\ if\ the\ word\ is\ \n\ misspelled\ and\ false\ otherwise.\ Check\ \n\ the\ word\ by\ calling\ the\ findWord\ method,\ \n\ passing\ it\ a\ lower\ case\ version\ of\ the\ \n\ word.\ If\ the\ word\ is\ found\ in\ the\ array,\ \n\ the\ checkWord\ method\ should\ print\ the\ \n\ original\ word\ from\ the\ input\ and\ its\ \n\ correct\ spelling.\n\ \n\ @param\ word\ mispelled\n\ @return\ true\n
+numComments=5

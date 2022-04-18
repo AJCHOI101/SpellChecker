@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CheckSentences
+comment0.text=\n\ Program\ will\ read\ a\ series\ of\ \n\ sentences\ (without\ punctuation)\ \n\ from\ the\ user,\ (as\ in\ project\ 1),\ \n\ and\ will\ check\ the\ spelling\ of\ \n\ each\ word.\ For\ each\ misspelled\ \n\ word,\ it\ will\ print\ the\ correct\ \n\ spelling.\ For\ each\ sentence,\ it\ \n\ will\ print\ the\ number\ of\ misspelled\ \n\ words.\ The\ program\ ends\ when\ the\ user\ \n\ enters\ the\ word\ STOP.\n\n\ @author\ (Andrew\ Choi)\n\ @version\ (05.01.2020)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Contains\ the\ main\ method\ of\ the\ program,\ \n\ which\ creates\ a\ Scanner\ object\ to\ read\ \n\ user\ input\ as\ well\ as\ a\ SpellChecker\ \n\ object.\ It\ then\ loops\ to\ read\ each\ \n\ sentence,\ check\ it\ for\ misspellings,\ and\ \n\ prints\ the\ number\ of\ misspelled\ words.\ \n\ Use\ the\ nextLine\ method\ to\ read\ the\ \n\ sentence\ from\ the\ user.\n
+numComments=2
